@@ -1,2 +1,4 @@
 # Breast-Cancer-Recurrence-Detection
-Machine learning algorithms utilized to detect breast cancer recurrences using clinical and image data.
+Machine learning for prediction of breast cancer recurrences using clinical and image data.
+
+The image data used in this project can be downloaded by following the steps [here](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226903). This is done using the NBIA data retriever, and the manifest file in `data/manifest-file/Duke-Breast-Cancer-MRI_v2_20220609.tcia`. The imaging folder will be named after the collection `Duke-Breast-Cancer-MRI_v2_20220609` and should be placed in data/raw in the current repo. All other data can be downloaded by typing `make data`.
